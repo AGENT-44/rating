@@ -134,3 +134,9 @@ button:hover {
     max-width: 40vh;
   }
 }
+
+@media screen and (min-width: 1240px) {
+  .wrapper {
+    max-width: 46vh;
+  }
+}
