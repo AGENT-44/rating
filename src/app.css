@@ -19,7 +19,7 @@
 
 .wrapper {
   border-radius: 1.75rem;
-  max-height: 45vh;
+  height: 50vh;
   max-width: 45vh;
   background-color: hsl(213deg, 19%, 18%);
   padding: 2rem;
@@ -93,18 +93,27 @@ button:hover {
 
 @media only screen and (min-width: 360px) {
   .App {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
     min-width: 0;
     padding: 0.5rem;
     overflow: hidden;
   }
   .wrapper {
-    max-height: 62vh;
+    height: 45vh;
     max-width: 50vh;
   }
   .wrapper2 {
-    height: 48vh;
+    height: 45vh;
+    width: 50vh;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 385px) {
+  .wrapper {
+    height: 65vh;
+  }
+  .wrapper2 {
+    height: 65vh;
   }
 }
 @media screen and (min-width: 758px) {
@@ -114,6 +123,7 @@ button:hover {
 }
 @media screen and (min-width: 1240px) {
   .wrapper {
+    max-height: 46vh;
     max-width: 46vh;
   }
 }/*# sourceMappingURL=app.css.map */
